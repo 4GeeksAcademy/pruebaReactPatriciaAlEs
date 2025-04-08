@@ -4,8 +4,8 @@
   background-image: url("https://media.istockphoto.com/id/1263403120/es/vector/antiguo-pergamino-de-papel-antiguo-desplazarse-sobre-blanco.jpg?s=612x612&w=0&k=20&c=fAIHQ5YPrOwWbRR7fxzFUQNeW_WYwxtpLgo7RSLgclQ=");
   background-size: cover;
   background-position: center;
-  border: none; 
-  border-radius: 0; 
+  border: none;
+  border-radius: 0;
   box-shadow: none;
   font-family: 'Cinzel', serif;
   color: #2b1b00;
@@ -15,6 +15,12 @@
   text-align: center;
   min-height: 500px;
   position: relative;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card-img-top {
@@ -27,13 +33,13 @@
   border: 2px solid #4b2e00;
 }
 
-.nombre-mago {
+/* .nombre-mago {
   font-size: 1.5rem;
   font-weight: bold;
   text-shadow: 1px 1px #fff2d6;
   margin-bottom: 1rem;
-}
-
+} */
+.nombre-mago,
 .casa-mago,
 .año-mago,
 .hechizo-mago {
@@ -42,7 +48,7 @@
   line-height: 1.6;
 }
 
-.registro-mago  {
+.registro-mago {
   background-color: #4b2e00;
   border: none;
   font-family: 'Cinzel', serif;
